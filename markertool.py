@@ -4,18 +4,19 @@
 #              Note that the name of the database and the name of the image directory are hardcoded in this file.
 import wx
 import base64
-import StringIO
+from io import StringIO
 import socket
 import threading
 import sys
 import os
-from wxBufferedBitmap import *
-from wxZoomingPILWindow import *
 
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
 #font = ImageFont.truetype("/usr/share/fonts/truetype/freefont/FreeMono.ttf", 8)
+
+from wxBufferedBitmap import *
+from wxZoomingPILWindow import *
 
 import sqlite3
 conn = sqlite3.connect('markertool.sqld')

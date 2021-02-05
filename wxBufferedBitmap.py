@@ -5,6 +5,7 @@
 
 import wx
 import sys
+from PIL import Image
 
 from wxBufferedWindow import *
 class BufferedBitmapWindow(BufferedWindow):

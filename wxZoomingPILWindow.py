@@ -1,7 +1,7 @@
 import wx
 import sys
 from wxBufferedWindow import *
-import Image
+from PIL import Image
 
 class ZoomingPILWindow(BufferedWindow):
      def __init__(self, *args, **kwargs):

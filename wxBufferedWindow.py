@@ -6,7 +6,7 @@
 
 import wx
 import sys
-import Image
+from PIL import Image
 
 class BufferedWindow(wx.Window):
      """
